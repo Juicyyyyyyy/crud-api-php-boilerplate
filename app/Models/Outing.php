@@ -14,9 +14,9 @@ class Outing
     public $duration;
     public $distance;
     public $comment;
-    private $average_speed;
-    private $average_pace;
-    private $conn; // Database connection
+    public $average_speed;
+    public $average_pace;
+    public $conn; // Database connection
 
     public function __construct($data)
     {
